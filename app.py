@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect # type: ignore
+from flask import Flask, render_template, request, redirect  # type: ignore
 
 app = Flask(__name__)
 
@@ -26,4 +26,4 @@ def submit_contact():
     return redirect('/')
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=9000)
